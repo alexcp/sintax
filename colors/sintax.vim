@@ -7,9 +7,9 @@
 " Default Colours
 let s:foreground = "256"
 let s:background = "255"
-let s:selection = "254"
+let s:selection = "253"
 let s:line = "254"
-let s:comment = "248"
+let s:comment = "246"
 let s:red = "160"
 let s:orange = "130"
 let s:darkBlue = "017"

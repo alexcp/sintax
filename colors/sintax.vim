@@ -51,7 +51,7 @@ call <SID>X("Normal", s:foreground, s:background, "")
 highlight LineNr term=bold cterm=NONE ctermfg=DarkGrey ctermbg=NONE gui=NONE guifg=DarkGrey guibg=NONE
 call <SID>X("NonText", s:selection, "", "")
 call <SID>X("SpecialKey", s:selection, "", "")
-call <SID>X("Search", "", s:selection, "")
+call <SID>X("Search", "", s:white, "reverse")
 call <SID>X("TabLine", s:line, s:white, "reverse")
 call <SID>X("StatusLine", s:line, s:lightPink, "reverse")
 call <SID>X("StatusLineNC", s:line, s:black, "reverse")
